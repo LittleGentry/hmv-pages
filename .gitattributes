@@ -1,0 +1,3 @@
+# Serve patch artefacts as raw binary; no text conversion, no LFS.
+*.wasm binary
+*.manifest text eol=lf
