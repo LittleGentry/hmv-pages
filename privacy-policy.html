@@ -27,7 +27,9 @@ li{margin:.35rem 0}
 <li>不收集、不存储、不传输、不共享任何个人信息</li>
 <li>不包含分析、统计或崩溃上报组件</li>
 <li>不包含广告，不进行任何形式的追踪</li>
-<li>本应用不发起任何网络请求，不与任何服务器通信</li>
+<li>本应用仅在您点按"跑热更"时，通过 HTTPS 向本应用的更新服务器请求一份演示用补丁包；该请求不包含任何个人信息、设备标识或用户数据</li>
+<li>下载的补丁包在保存前会经过 SHA-256 完整性校验，校验不通过的文件会被丢弃</li>
+<li>补丁包仅保存在应用自身的沙盒缓存目录内，不对外共享</li>
 <li>本应用运行所需的全部数据均随安装包一同提供</li>
 </ul>
 
@@ -56,7 +58,9 @@ li{margin:.35rem 0}
 <li>We do not collect, store, transmit, or share any personal information</li>
 <li>No analytics, statistics, or crash-reporting components are included</li>
 <li>No advertising, and no tracking of any kind</li>
-<li>The app makes no network requests and communicates with no server</li>
+<li>The app makes a network request only when you tap "Run Hotfix": an HTTPS fetch of a demonstration patch from our update server. That request carries no personal information, device identifiers, or user data</li>
+<li>Downloaded patches are SHA-256 verified before use; a file that fails verification is discarded</li>
+<li>The patch is stored only inside the app's own sandbox cache and is never shared</li>
 <li>All data the app needs ships inside the app bundle</li>
 </ul>
 
